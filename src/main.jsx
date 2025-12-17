@@ -7,8 +7,6 @@ import Home from './components/Home.jsx'
 import Products from './components/Products.jsx'
 import Singleproduct from'./components/Singleproduct.jsx'
 import Payment from "./components/Payment.jsx";
-
-
 const router = createBrowserRouter([
   {
     path: '/',

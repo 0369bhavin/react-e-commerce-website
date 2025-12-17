@@ -59,7 +59,7 @@ function Payment() {
       <form onSubmit={handleSubmit}>
 
         {/* NAME */}
-        <label className="block mb-2"> Name on Card</label>
+        <label className="block mb-2"> Name on Car</label>
         <input
           type="text"
           name="name"

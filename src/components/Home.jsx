@@ -25,11 +25,11 @@ function Home() {
           
         </h1>
         <p className="text-3xl md:text-2xl mb-8">
-          Discover amazing products at unbeatable prices.
+         
         </p>
         <button 
           onClick={handleClick} 
-          className="px-8 py-3 bg-blue-500 text-white rounded-full text-lg hover:bg-blue-600 transition mt-20"
+          className="px-10 py-3  bg-blue-500 text-white rounded-full text-lg hover:bg-blue-600 transition mt-25 cursor-pointer"
         >
           Go to Products
         </button>

@@ -1,5 +1,5 @@
 import axios from "axios";
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import {useNavigate} from 'react-router-dom'
 import Loder from './Loder'
 
@@ -23,7 +23,7 @@ function Products() {
 if(loding)return<Loder/>
 
   return (
-    <div className="grid grid-cols-5 max-[1200px]:grid-cols-4 max-[900px]:grid-cols-3 max-[600px]:grid-cols-2 gap-4 p-6">
+    <div className="grid grid-cols-5 max-[1200px]:grid-cols-4 max-[900px]:grid-cols-3 max-[600px]:grid-cols-2 gap-4 p-6 cursor-pointer">
       {products.map((item) => (
         <ProductCard key={item.id} item={item} />
       ))}
